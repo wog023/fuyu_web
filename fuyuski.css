@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+	padding: 0;
+	background: transparent;
+	border: 0;
+	outline: 0;
+	color: #000;
+}
+#container{
+	text-align: left;
+}
+header{
+	position: absolute;
+	width: 100%;
+	z-index: 11;
+}
+header div h1 a{
+	text-decoration: none;
+	color: #40514e;
+}
+.menuBox{
+	width: 100%;
+	float: right;
+	position: relative;
+	transition: opacity 1.25s ease,background 0s ease;
+}
+.menuBox .menuInfo{
+	float: right;
+}
+.menuBox .menuInfo nav{
+	display: block;
+}
+.menuBox .menuInfo nav ul{
+	list-style: none
+}
+.menuBox .menuInfo nav ul li{
+	float: left;
+}
+.menuBox .menuInfo nav ul li p{
+	padding: 42px 18px 45px;
+}
+.menuBox .menuInfo nav ul li p a{
+	font-size: 16px;
+	display: block;
+	letter-spacing: 1.5px;
+	position: relative;
+	text-decoration: none;
+	transition: color 0.6s ease;
+}
+a:hover{
+	color: #11999e;
+}
+#main{
+	display: block;
+}
+#banner{
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	height: 100vh;
+	/*height: auto;*/
+}
+#banner .bannerBox{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+#banner .bannerBox .bannerImg{
+	background: url(img/bannerImg.jpg) no-repeat center;
+	background-size: cover;
+
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+#banner .bannerWord{
+	position: absolute;
+	top: 45%;
+	right: 48%;
+	text-shadow: 1px 1px 1px #fff;
+}
+#banner .bannerWord h6{
+	font-weight: normal;
+	font-size: 30px;
+}
+#banner .bannerWord p{
+	font-weight: 24px;
+
+}
+.scene{
+	margin-top: 144px;
+	margin-bottom: 150px;
+}
+.scene h2{
+	font-size: 36px;
+	text-align: center;
+	letter-spacing: 2px;
+	margin-bottom: 66px;
+}
+.scene ul{
+	margin-bottom: 51px;
+}
