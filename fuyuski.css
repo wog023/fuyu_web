@@ -329,18 +329,49 @@ footer .footBox .contact .contactForm a:hover{
 	font-size: 24px;
 }
 .linkItem p {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     margin-top: 50px;
-
+	
 }
 .linkItem p a{
 	text-decoration: none;
 	font-weight: bolder;
-	font-family: 'Vidaloka', serif;
+	/*font-family: 'Vidaloka', serif;*/
+	letter-spacing: 0.054em;
 }
 .linkItem ul li a {
     text-decoration: none;
     font-family: 'Vidaloka', serif;
-    color: #2e2e2e;
-    line-height: 1.6em;
+    font-size: 20px;
+	color: #4b4b4b;
+    line-height: 1.7em;
+    letter-spacing: 0.05em;
 }
+/*** Small devices (landscape phones, 576px and up) ***/
+@media (min-width: 576px) {
+	#banner .bannerWord {
+    	right: 5%;
+	}
+	#banner .bannerWord h6 {
+    	font-size: 35px;
+	}
+	#banner .bannerWord p {
+    	font-size: 14px;
+	}
+}
+
+/*** Medium devices (tablets, 768px and up) ***/
+@media (min-width: 768px) and (max-width: 991px) {
+	#banner .bannerWord {
+    	right: 25%;
+	}
+	#banner .bannerWord h6 {
+    	font-size: 40px;
+	}
+	#banner .bannerWord p {
+    	font-size: 14px;
+	}
+}
+
+/*** Large devices (desktops, 992px and up) ***/
+@media (min-width: 992px) { ... }
