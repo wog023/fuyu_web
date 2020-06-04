@@ -347,31 +347,64 @@ footer .footBox .contact .contactForm a:hover{
     line-height: 1.7em;
     letter-spacing: 0.05em;
 }
-/*** Small devices (landscape phones, 576px and up) ***/
-@media (min-width: 576px) {
-	#banner .bannerWord {
-    	right: 5%;
-	}
-	#banner .bannerWord h6 {
-    	font-size: 35px;
-	}
-	#banner .bannerWord p {
-    	font-size: 14px;
-	}
-}
 
-/*** Medium devices (tablets, 768px and up) ***/
-@media (min-width: 768px) and (max-width: 991px) {
+
+
+/*** Large devices (768-1200) ***/
+@media (max-width:1200px) {
 	#banner .bannerWord {
-    	right: 25%;
+    	right: 28%;
 	}
 	#banner .bannerWord h6 {
     	font-size: 40px;
 	}
 	#banner .bannerWord p {
     	font-size: 14px;
+	}	
+	.scene ul li{
+		width: 50%;
 	}
 }
-
-/*** Large devices (desktops, 992px and up) ***/
-@media (min-width: 992px) { ... }
+/*** Medium devices (576-768) ***/
+@media (max-width: 768px) {
+	#banner .bannerWord {
+    	left: 5%;
+	}
+	#banner .bannerWord h6 {
+    	font-size: 38px;
+	}
+	#banner .bannerWord p {
+    	font-size: 14px;
+	}
+	.scene ul li{
+		width: 100%;
+	}
+}
+/*** Small devices (360-576px) ***/
+@media (max-width: 576px) {
+	#banner .bannerWord {
+    	left: 5%;
+	}
+	#banner .bannerWord h6 {
+    	font-size: 25px;
+	}
+	#banner .bannerWord p {
+    	font-size: 14px;
+	}
+}
+/*** Small devices (0-360) ***/
+@media (max-width: 360px) {
+	#banner .bannerWord {
+    	right:5%;
+		  left: 10%;
+	}
+	#banner .bannerWord h6 {
+    	font-size: 28px;
+	}
+	#banner .bannerWord p {
+    	font-size: 14px;
+	}
+	.scene ul li{
+		width: 100%;
+	}
+}
